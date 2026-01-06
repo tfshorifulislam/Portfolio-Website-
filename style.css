@@ -64,6 +64,10 @@
 }
 
 
+.text-center{
+  text-align: center;
+}
+
 
 /* main style */
 
@@ -136,7 +140,9 @@ nav{
   vertical-align: middle;
 }
 
-#about{
+#about ,
+#skills ,
+#resume{
   padding-top: 130px;
 }
 
@@ -168,10 +174,6 @@ nav{
   color: #474747;
 }
 
-
-#skills{
-  margin-top: 130px;
-}
 
 .skills-container{
   width: 71%;
@@ -207,4 +209,105 @@ nav{
   font-size: 16px;
   line-height: 24px;
   color: #757575;
+}
+.resume-container hr{
+  margin: 30px 0;
+}
+
+.resume-container{
+  width: 70%;
+  max-width: 1140px;
+  display: flex;
+  margin: 113px auto 0;
+  gap: 24px;
+}
+
+.section-title{
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.card-title{
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.card-info{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+
+footer{
+  margin-top: 113px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+#footer-container{
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  gap: 116px;
+}
+
+
+.social{
+
+  max-width: 562px;
+}
+
+#footer-container h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+#footer-container p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+
+.icons a{
+  margin-right: 24px;
+}
+
+.form input[type="text"],input[type="email"] {
+  width: 461px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  border: none;
+  border-radius: 5px;
+}
+form textarea{
+  width: 461px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  border: none;
+  border-radius: 5px;
 }
